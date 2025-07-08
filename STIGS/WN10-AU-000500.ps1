@@ -14,7 +14,7 @@
 
 #>
 
-# YOUR CODE GOES HERE
+
 
 
 # Define the registry path

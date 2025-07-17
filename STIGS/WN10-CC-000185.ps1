@@ -1,3 +1,23 @@
+<#
+.SYNOPSIS
+    This PowerShell script ensures that the 'NoAutorun' registry value is set to 1 to disable AutoRun on all drives, as required by STIG ID WN10-CC-000185.
+
+.NOTES
+    Author          : Jorge Garcia Sosa
+    GitHub          : github.com/jorgegsosa11/jorgegsosa11
+    Date Created    : 2025-07-16
+    Last Modified   : 2025-07-16
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN10-CC-000185
+
+.DESCRIPTION
+    According to DISA STIG WN10-CC-000185, AutoRun must be disabled to reduce the risk of malware propagation through USB or other removable media. 
+    This script checks the registry path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer' for the 'NoAutorun' value.
+    If the value is missing or set incorrectly, it will be created or updated to '1' (REG_DWORD) to comply with the STIG requirement.
+#>
+
 # Define registry path and expected values
 $registryPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer"
 $valueName = "NoAutorun"

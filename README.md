@@ -14,6 +14,6 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 -  **[Threat Hunting Scenario (Suspicious Powershell)](https://github.com/jorgegsosa11/threat_hunt_suspicious_powershell)**
 
 ## 💻 System Administration
-- **[🛠️ Active Direcotry Lab)]**
+- **🛠️ Active Direcotry Lab**
 <hr/>
 

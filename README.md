@@ -17,7 +17,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 - **[Active Directory Home Lab ](https://github.com/jorgegsosa11/Active-Directory-Home-Lab)**
 
 ##  🔍 Capture the Flag Reports 
-- **{Splunk Security Incident ](https://github.com/jorgegsosa11/SPLUNK-Security-Incident-Investigation-Report}**
+- **[Splunk Security Incident ](https://github.com/jorgegsosa11/SPLUNK-Security-Incident-Investigation-Report)**
   
   
 
